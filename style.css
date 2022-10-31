@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.header .part-1 ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.header .part-1 ul li:first-child {
+  float: left;
+}
+.header .part-1 ul li:not(:first-child) {
+  float: right;
+}
+.header .part-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main .part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
